@@ -593,7 +593,7 @@ h3 {
   padding-bottom: 100px;
   width: 100%;
   height: 50vh;
-  background-image: url(/assets/parallax1.png);
+  background-image: url(assets/parallax1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1094,7 +1094,7 @@ h3 {
 }
 
 .head {
-  background: url(/assets/parallax2.png) no-repeat;
+  background: url(assets/parallax2.png) no-repeat;
   background-size: 100% 100%;
   width: 100%;
 }
