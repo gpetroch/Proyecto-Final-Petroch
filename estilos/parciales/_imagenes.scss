@@ -1,0 +1,55 @@
+
+  .imgEffects{
+   justify-content: right;}
+  
+  .imgEffects:hover{
+   transform: scale(1.02);
+   transition: transform 0.3s ease-in;
+  }
+  
+  .imgImg{
+    background-color: none;
+    padding-left: 10px;
+    align-content: center;
+  }
+  
+  .contentCenter{
+    max-width: 100px;
+    text-align: left center;
+    background-color: greenyellow;
+    margin: 60px;
+  }
+
+
+  .centradoContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parallaxCompleto{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    width: 100%;
+    height:50vh;
+    background-image: url(/assets/parallax1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.flexPrueba{
+  display: flex;
+  justify-content: center;
+}
+
+  .sizing{
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .centradoImg{
+    margin: 20px 10px 20px 10px;;
+  }

@@ -1,0 +1,144 @@
+
+$font-a:'DM Serif Text', serif;
+$font-b: 'Titillium Web', sans-serif;
+
+$tituloFont:
+(font-weight: 800,
+font-family: $font-a,
+max-width: 550px,
+font-size: 60px,
+line-height: 55px);
+
+
+.textoMain{
+    background-color: none;
+    padding-left: 80px;
+    padding-top: $pTop;
+    padding-bottom: 20px;}
+  
+.textoTestim{
+      font-weight: 800;
+      font-family: $font-a;
+      font-size: 60px;
+      line-height: 55px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+
+.textIndex{
+      margin-top: 30px;
+      margin-right: 50px;
+      }
+
+.titulos{
+    font-weight: 800;
+    font-family: $font-a;
+    max-width: 550px;
+    font-size: 60px;
+    line-height: 55px;
+      }
+
+.tituloContacto{
+  font-family:'DM Serif Text', serif;
+  font-size: 60px;
+  line-height: 55px;
+  font-weight: 800;
+}
+
+  
+h3{
+    font-size: 23px;
+    font-weight: 800;
+    font-family: $font-a;
+  }
+
+.headTitulo{
+  font-weight: 600;
+  font: $font-b;
+  color: rgb(109, 109, 109);
+  font-size: 20px;
+}
+
+.textIndex{
+  padding-bottom: 5px;
+}
+.textContacto {
+    background-color: green;
+    padding: 10px 0px 10px 0px;
+  }
+
+.tituloProductoOk{
+  font-weight: 800;
+  font-family: $font-a;
+  font-size: 60px;
+  line-height: 55px;
+  padding: 70px 20px 0px 20px;
+}
+
+
+.textoProductos {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.titulosprod{
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+
+
+
+.tituloNosotross{
+  font-weight: 800;
+  font-size: 60px;
+  font-family: $font-a;
+  line-height: 55px;
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.textNosotros{
+  padding-top: 10px;
+  }
+
+
+
+  .blanquito{
+    background-color: cadetblue;
+    padding:20px;
+
+  }
+
+
+  .tituloFreq{
+    font-weight: 800;
+    font-size: 60px;
+    font-family: $font-a;
+    line-height: 55px;
+    color: black;
+  }
+
+  .TitleFreq{
+    font-family: $font-b;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .textFreq{
+    font-size: 17px;
+    color:map-get($colores, colorNav);
+    padding: 15px;
+    line-height: 17px;
+  }
+
+  .estiloLi{
+    list-style-type: none;
+    margin: 0%;
+    padding: 10%;
+    line-height: 18px;
+}
